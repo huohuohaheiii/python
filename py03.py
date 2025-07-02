@@ -87,17 +87,37 @@
 # else:
 #     print("请输入阿拉伯数字")
 
-py_score = (input("请输入你的python课程成绩："))
-c_score = (input("请输入你的c语言课程成绩："))
-if py_score.isdigit() and c_score.isdigit():
-    py_score = int(py_score)
-    c_score = int(c_score)
-    if(py_score >= 60 or c_score >= 60):
-        print("合格")
-    else:
-        print("不合格")
-else:
-    if not py_score.isdigit() :
-        print("py成绩请输入数字")
-    if not c_score.isdigit() :
-        print("c成绩请输入数字")
+# py_score = (input("请输入你的python课程成绩："))
+# c_score = (input("请输入你的c语言课程成绩："))
+# if py_score.isdigit() and c_score.isdigit():
+#     py_score = int(py_score)
+#     c_score = int(c_score)
+#     if(py_score >= 60 or c_score >= 60):
+#         print("合格")
+#     else:
+#         print("不合格")
+# else:
+#     if not py_score.isdigit() :
+#         print("py成绩请输入数字")
+#     if not c_score.isdigit() :
+#         print("c成绩请输入数字")
+
+
+#闰年的判断
+# year = int(input("输入年份： "))
+# if year >= 1582:
+#     if year % 4 == 0 and year % 100 != 0:
+#         print("普通闰年")
+#     elif year % 400 == 0:
+#         print("世纪闰年")
+#     else:
+#         print("不是闰年")
+# else:
+#     print("年份不得早于1582年！请重新输入")
+
+
+#while语句
+i = 0
+while i < 5 :
+    print("Hello python!")
+    i += 1
